@@ -1,9 +1,9 @@
 from django.shortcuts import render, HttpResponse
 from home.models import Contact
 # Create your views here.
-def developer(request):
+def index(request):
     #return HttpResponse("This is my homepage (/home)")
-    return render(request, 'developer.html')
+    return render(request, 'index.html')
 def home(request):
     #return HttpResponse("This is my homepage (/home)")
     #context = {'name':'nikk','course':'django'}
