@@ -3,7 +3,7 @@ from home.models import Contact
 # Create your views here.
 def index(request):
     #return HttpResponse("This is my homepage (/home)")
-    return render(request, 'index.html')
+    return render(request, '/portfolio/index.html')
 def home(request):
     #return HttpResponse("This is my homepage (/home)")
     #context = {'name':'nikk','course':'django'}
